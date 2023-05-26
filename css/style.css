@@ -18,6 +18,9 @@ body{
 p{
     text-align: justify;
 }
+h2{
+    font-size: 40px;
+}
 .half-width.image{
     background-image: url("../image/food1.png");
     background-size: 100% 100%;
@@ -70,11 +73,7 @@ button{
     padding: 100px 0;
 }
 .box-contain{
-    margin: 0 100px;
-}
-
-.box-contain h2{
-    font-size: 40px;
+    padding-left: 100px
 }
 
 .box-2-image img{
@@ -116,12 +115,11 @@ button{
     padding: 100px;
 }
 
-.part-3 h2{
+.part-3 h2, .for-color h2{
     margin-bottom: 60px;
-    font-size: 40px;
 }
 
-.part-3 button{
+.part-3 button, .for-color button{
     position: relative;
     left: 40%;
     margin-top: 100px;
@@ -130,13 +128,11 @@ button{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #8A9DA5;
-    grid-row-gap: 30px;
-    
+    grid-row-gap: 30px;   
 }
 
 .image-box{
     width: 400px;
-    height: 500px;
     background-color: #D6DBDD;
 }
 
@@ -165,7 +161,42 @@ button{
     text-align: center;
 }
 .price{
-    font-size: 24px;
+    font-size: 20px;
     color:#BE6445;
     margin-top: 0;
+    font-weight: 700;
+}
+
+/*--------
+  part-4
+--------*/
+
+.for-color{
+    background-color: #D6DBDD;
+    padding: 100px;
+}
+.part-4{
+    display: flex;
+}
+.part-4-box{
+    background-color: white;
+    width: 400px;
+    margin-right: 35px;
+    padding-bottom: 5px;
+}
+
+.part-4-image img{
+    width: 400px;
+    height: 300px;
+
+}
+.part-4-text{
+    padding: 20px;
+}
+.star{
+    color: #F1BA4D;
+}
+.star-text{
+    font-size: 12px;
+    color: #8A9DA5;
 }
