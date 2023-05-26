@@ -200,3 +200,20 @@ button{
     font-size: 12px;
     color: #8A9DA5;
 }
+
+/*--------
+   part-5
+---------*/
+
+.part-5{
+    background-color: #8A9DA5;
+    padding: 100px;
+}
+.part-5-container{
+    width: 100%;
+    background-color: white;
+}
+.part-5-text{
+    padding: 5% 30%;
+    text-align: center;
+}
