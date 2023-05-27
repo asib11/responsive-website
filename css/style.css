@@ -246,15 +246,25 @@ button{
 /*---------
     footer
 ----------*/
+footer{
+    background-color: #D6DBDD;
+    padding: 70px 100px 30px;
+    
+}
+.copy{
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+    
+}
 .footer-container{
     display: flex;
-    justify-content: space-around;
-    background-color: #D6DBDD;
+    justify-content: space-between;
 }
 .email{
     border: 2px solid black;
-    /* margin: 0;
-    padding: 0; */
+    margin-top: 20px;
+    /* padding: 0; */
     background-color: #FB7C21;
 }
 #mail{
@@ -271,6 +281,11 @@ button{
     border-style: none;
     background-color: #FB7C21;
     color: white;
+}
+footer span{
+    font-family: 'Pacifico', cursive;
+    color: rgb(255, 102, 1);
+       
 }
 /*----------
 media quary
