@@ -7,13 +7,22 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .container{
-    display: flex;
+    /* display: flex; */
+    /* background-color: #607D8B; */
+    background-color: #607D8B;
+    background-image: url("../image/food1.png");
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .half-width{
-
-    width: 50%;
-    height: 700px;
-    background-color: #607D8B;
+    /* width: 50%;    */
+    /* background-color: #607D8B;
+    background-image: url("../image/food1.png");
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: right; */
+    margin: 0;
 }
 p{
     text-align: justify;
@@ -21,11 +30,11 @@ p{
 h2{
     font-size: 40px;
 }
-.half-width.image{
+/* .half-width.image{
     background-image: url("../image/food1.png");
-    background-size: 100% 100%;
+    background-size: 50% 100%;
     background-repeat: no-repeat;
-}
+} */
 
 button{
     width: 233px;
@@ -43,11 +52,13 @@ button{
 -------------*/
 .text{
     color: white;
-    width: 400px;
-    height: 45px;
-    margin: 100px 72.5px 72px 97px;
+    width: 30%;
+    padding-left: 100px;
+    padding-bottom: 100px;
 }
 .text h2{
+    margin: 0;
+    padding: 50px 0;
     font-size: 70px;
 }
 
@@ -66,11 +77,21 @@ button{
     background-color: #D6DBDD;
     padding-bottom: 100px;
  }
+ .container2{
+    display: flex;
+ }
+ .box-contain h2{
+    margin-top: 0;
+ }
 .box-2{
     width: 50%;
-    height: 550px;
-    
-    padding: 100px 0;
+    /* height: 550px; */
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.for-flex{
+    display: flex;
+    padding-left: 100px;
 }
 .box-contain{
     padding-left: 100px
@@ -78,17 +99,16 @@ button{
 
 .box-2-image img{
     border:2px solid #FF9F0D;
-    height: 400px;
-    width: 400px;
+    height: 335px;
+    width: 130%;
     padding: 10px;
     margin-left: 20px ;
-    
 }
 
 #image-2{
     position: relative;
-    left: 200px;
-    top: -250px
+    left: -50px;
+    top: 150px 
     
 }
 
@@ -128,7 +148,9 @@ button{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #8A9DA5;
-    grid-row-gap: 30px;   
+    grid-row-gap: 30px;
+    grid-column-gap:45px ;
+    justify-content: space-between;   
 }
 
 .image-box{
@@ -177,11 +199,11 @@ button{
 }
 .part-4{
     display: flex;
+    justify-content: space-between;
 }
 .part-4-box{
     background-color: white;
     width: 400px;
-    margin-right: 35px;
     padding-bottom: 5px;
 }
 
@@ -216,4 +238,13 @@ button{
 .part-5-text{
     padding: 5% 30%;
     text-align: center;
+}
+
+/*----------
+media quary
+-----------*/
+/* mobile device */
+
+@media only screen and (max-width:668px) {
+    
 }
